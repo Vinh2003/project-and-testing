@@ -1,4 +1,3 @@
-
 let arr=[prompt("nhập vào chuỗi)]
 let c = '';
 
