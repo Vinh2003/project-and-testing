@@ -13,3 +13,5 @@ for (let t =1; t < arr[i][j].length; t= t+1){
     result= result + arr[i][j][t];
 }
 }
+let a =prompt("this is test")
+a = a.toLowerCase();
