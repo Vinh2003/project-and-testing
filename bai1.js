@@ -1,6 +1,4 @@
-let a =["p","r","o","g","r","a","m"]
-console.log(a[6],[5],[4],[3],[2],[1]);
-or 
+
 let arr=[prompt()]
 let dapan = "";
 
