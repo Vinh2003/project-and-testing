@@ -1,8 +1,9 @@
 
-let arr=[prompt()]
-let dapan = "";
+let arr=[prompt("nhập vào chuỗi)]
+let c = '';
 
-for (let i = arr[0].length - 1; i >= 0; i--) {
-    result = result + arr[0][i];
+for (let i=str.length-1;i>=0;i--) {
+    s += str[i];
 }
-console.log(dapan);
+
+console.log(s); 
