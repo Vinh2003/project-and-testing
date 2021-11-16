@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style ssstutter.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="checkout page">
+        <div class="checkout form">       
+            <form>
+                <h4>THÔNG TIN GIAO HÀNG</h4>
+                <input  type="text" placeholder="* Họ & Tên">
+                <input  type="email" placeholder="Email">
+                <input  type="text" placeholder="* Số điện thoại">
+                <div>
+                  <select>
+                    <option value="none">Chọn Tỉnh/Thành Phố</option>
+                  
+                    <option>Hà Nội</option>
+                    
+                    <option>Hồ Chí Minh</option>
+                    
+                    <option>Đà Nẵng</option>
+                    
+                    <option>Hải Phòng</option>
+                    
+                    <option>Quảng Ninh</option>
+                    
+                    <option>Khánh Hòa</option>
+                    
+                    <option>An Giang</option>
+                    
+                    <option>Bà Rịa - Vũng Tàu</option>
+                    
+                    <option>Bắc Ninh</option>
+                    
+                    <option>Bắc Giang</option>
+                    
+                    <option>Bình Dương</option>
+                    
+                    <option>Bình Định</option>
+                    
+                    <option>Bình Phước</option>
+                    
+                    <option>Bình Thuận</option>
+                    
+                    <option>Bến Tre</option>
+                    
+                    <option>Bắc Cạn</option>
+                    
+                    <option>Cần Thơ</option>
+                    
+                    <option>Thừa Thiên Huế</option>
+                    
+                    <option>Lào Cai</option>
+                    
+                    <option>Đồng Nai</option>
+                    
+                    <option>Nam Định</option>
+                    
+                    <option>Cà Mau</option>
+                    
+                    <option>Cao Bằng</option>
+                    
+                    <option>Gia Lai</option>
+                    
+                    <option>Hà Giang</option>
+                    
+                    <option>Hà Nam</option>
+                    
+                    <option>Hà Tĩnh</option>
+                    
+                    <option>Hải Dương</option>
+                    
+                    <option>Hòa Bình</option>
+                    
+                    <option>Hưng Yên</option>
+                    
+                    <option>Kiên Giang</option>
+                    
+                    <option>Kon Tum</option>
+                    
+                    <option>Lai Châu</option>
+                    
+                    <option>Lâm Đồng</option>
+                    
+                    <option>Lạng Sơn</option>
+                    
+                    <option>Long An</option>
+                    
+                    <option>Nghệ An</option>
+                    
+                    <option>Ninh Bình</option>
+                    
+                    <option>Ninh Thuận</option>
+                    
+                    <option>Phú Thọ</option>
+                    
+                    <option>Phú Yên</option>
+                    
+                    <option>Quảng Bình</option>
+                    
+                    <option>Quảng Nam</option>
+                    
+                    <option>Quảng Ngãi</option>
+                    
+                    <option>Quảng Trị</option>
+                    
+                    <option>Sóc Trăng</option>
+                    
+                    <option>Sơn La</option>
+                    
+                    <option>Tây Ninh</option>
+                    
+                    <option>Thái Bình</option>
+                    
+                    <option>Thái Nguyên</option>
+                    
+                    <option>Thanh Hóa</option>
+                    
+                    <option>Tiền Giang</option>
+                    
+                    <option>Trà Vinh</option>
+                    
+                    <option>Tuyên Quang</option>
+                    
+                    <option>Vĩnh Long</option>
+                    
+                    <option>Vĩnh Phúc</option>
+                    
+                    <option>Yên Bái</option>
+                    
+                    <option>Đắc Lắc</option>
+                    
+                    <option>Đồng Tháp</option>
+                    
+                    <option>Đắc Nông</option>
+                    
+                    <option>Hậu Giang</option>
+                    
+                    <option>Bạc Liêu</option>
+                    
+                    <option>Điện Biên</option>
+                  </select>
+                  
+                  <select>
+                    <option type="text">Chọn Quận/Huyện</option>
+                  </select>
+    
+                  <select>
+                    <option type="text">Chọn Phường/Xã</option>
+                  </select>
+    
+                  <input  type="text" placeholder="* Số nhà tên đường ...">
+                  
+                  <input type="text" placeholder="* Phương thức thanh toán">
+               </div> 
+               <small style="color: grey">(*) là trường hợp không được để trống</small>      
+              </form>   
+            </div>
+            <div class="checkout_cart">
+              <form>
+                <ul class="product_list"></ul>
+                <div class="discount code">
+                  <input data-value="coupon" type="text" placeholder="Mã giảm giá...">
+                  <button data-action="coupon">Áp dụng</button>
+                </div>
+                <div class="total cart">
+                  <p>Tổng:</p>
+                  <strong data-amount="purchase" data-price="0">0 <span class="currency-symbol">₫</span></strong>
+                </div>
+                <div class="total_cart">
+                  <small>Ưu đãi:</small>
+                  <small data-amount="discount" data-price="0">-0 <span class="currency-symbol">₫</span></small>
+                </div>
+                <div class="total_cart">
+                  <small>Phí ship:</small>
+                  <small data-amount="shipping">0</small>
+                </div>
+                <div class="total_cart">
+                  <p>Thành tiền:</p>
+                  <strong data-amount="total" data-price="0">0 <span class="currency-symbol">₫</span></strong>
+                </div>
+              
+                <button class="confirm order">Hoàn tất đơn hàng</button>
+              </form>             
+          </div>
+    </div>
+</body>
+</html>
